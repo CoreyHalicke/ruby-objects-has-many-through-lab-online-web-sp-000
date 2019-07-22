@@ -20,6 +20,7 @@ class Genre
     self.songs.each do |song|
       song.artist
     end
+  end
 
 
 
