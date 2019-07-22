@@ -25,7 +25,7 @@ class Artist
 
   def genres
     self.songs.each do |song|
-        pry
+      binding.pry
     end
   end
 end
