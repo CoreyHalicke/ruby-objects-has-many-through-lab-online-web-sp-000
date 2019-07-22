@@ -16,4 +16,11 @@ class Genre
     end
   end
 
+  def artists
+    self.songs.each do |song|
+      song.artist
+    end
+
+
+
 end
