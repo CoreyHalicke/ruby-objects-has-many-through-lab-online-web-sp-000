@@ -25,7 +25,7 @@ class Artist
 
   def genres
     self.songs.each do |song|
-      song.genre.name
+      song.genre
     end
   end
 end
