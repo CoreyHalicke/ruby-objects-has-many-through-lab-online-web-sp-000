@@ -27,7 +27,5 @@ class Artist
     self.songs.each do |song|
 
     end
-      
-    binding.pry
   end
 end
