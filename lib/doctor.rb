@@ -22,7 +22,10 @@ class Doctor
   end
 
   def patients
-    
+    self.all.collect do |appointment|
+      appointment.patient
+    end
+      
   end
 
 end
